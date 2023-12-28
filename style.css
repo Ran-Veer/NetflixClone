@@ -1,12 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
+body{
+    background-color: black;
+}
+/* ---------------------------------------------------- Header Section -------------------------------------------------- */
+/* ------------------- BG Image Section Start --------------------- */
 header{
-    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.3),rgba(0,0,0,.9)), url(./Assets/images/bg.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.4),rgba(0,0,0,.9)), url(./Assets/images/bg.jpg);
     background-position: 50% 65%;
-    background-size: 125%;
+    background-size: max(1500px,125%);
     background-repeat: no-repeat;
     height: 75vh;
+}
+/* ------------------- BG Image Section End --------------------- */
+
+/* -------------------- Logo Section Start ----------------------------- */
+header nav{
+    /* background-color: aquamarine; */
+    max-width:62%;
+    margin: auto;
+    /* height: 8rem; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 0 0 0;
+}
+header nav .logo img{
+    width: 9.5rem;
+}
+header nav .sign-in-section{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    margin-bottom: 1rem;
+}
+header nav .sign-in-section .lang-btn select{
+    padding: .2rem .8rem .2rem 2rem;
+    font-size: .95rem;
+    font-weight: 500;
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.4);
+    color: #fff;
+}
+header .fa-language{
+    color: #fff;
+    font-size: 1rem;
+    position: relative;
+    top: .1rem;
+    left: 2rem;
+}
+header nav .sign-in-section .sign-btn button{
+    padding: .35rem .9rem;
+    font-size: .9rem;
+    border-radius: 4px;
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    border: none;
+    font-weight: 500;
 }
