@@ -151,7 +151,7 @@ header .heading-text .email-box button:hover {
 
 /* ----------------------------------------------------- Main Section Start -------------------------------------------------- */
 
-/* --------------------- Tv Section --------------------- */
+/* --------------------- First Section Start --------------------- */
 main .tv-section {
   /* border: 1px solid yellowgreen; */
   display: flex;
@@ -198,4 +198,14 @@ main .tv-section .tv-img video{
     top: 5rem;
     left: 4.8rem;
     z-index: 1;
+}
+/* --------------------- First Section End --------------------- */
+
+/* ---------------------- Second Section Start ------------------ */
+
+main .tv-section #sec-vid{
+    width:400px;
+    top: 2rem;
+    left: 6rem;
+    overflow: hidden;
 }
