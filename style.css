@@ -45,6 +45,9 @@ header nav .sign-in-section{
     /* border: 1px solid red; */
     margin-bottom: 1rem;
 }
+header nav .sign-in-section .lang-btn{
+    cursor: default;
+}
 header nav .sign-in-section .lang-btn select{
     padding: .2rem .8rem .2rem 2rem;
     font-size: .95rem;
@@ -52,6 +55,10 @@ header nav .sign-in-section .lang-btn select{
     border-radius: 4px;
     background-color: rgba(0,0,0,.4);
     color: #fff;
+}
+header nav .sign-in-section .lang-btn select option{
+    background-color: #fff;
+    color: #000000;
 }
 header .fa-language{
     color: #fff;
@@ -68,6 +75,11 @@ header nav .sign-in-section .sign-btn button{
     color: #fff;
     border: none;
     font-weight: 500;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+header nav .sign-in-section .sign-btn button:hover{
+    background-color: #b70009;
 }
 /* -------------------- Logo Section End ----------------------------- */
 
@@ -81,16 +93,19 @@ header .heading-text{
 header .heading-text h1{
     font-size: 2.85rem;
     margin-bottom: .3rem;
+    cursor: default;
 }
 header .heading-text h2{
     font-size: 1.4rem;
     font-weight: 400;
     margin-bottom: 1.5rem;
+    cursor: default;
 }
 header .heading-text h3{
     font-size: 1.16rem;
     font-weight: 400;
     margin-bottom: .8rem;
+    cursor: default;
 }
 header .heading-text .email-box input{
    width: 23rem;
@@ -115,6 +130,11 @@ header .heading-text .email-box button{
     color: #fff;
     font-weight: 500;
     margin-left: .5rem;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+header .heading-text .email-box button:hover{
+    background-color: #c30710;
 }
  header .bar{
     width: 100%;
