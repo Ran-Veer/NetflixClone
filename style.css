@@ -1,144 +1,201 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-body{
-    background-color: black;
+body {
+  background-color: black;
 }
-/* ---------------------------------------------------- Header Section -------------------------------------------------- */
+/* ---------------------------------------------------- Header Section Start -------------------------------------------------- */
 /* ------------------- BG Image Section Start --------------------- */
-header{
-    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.4),rgba(0,0,0,.9)), url(./Assets/images/bg.jpg);
-    background-position: 50% 65%;
-    background-size: max(1500px,125%);
-    background-repeat: no-repeat;
-    height: 75vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+header {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url(./Assets/images/bg.jpg);
+  background-position: 50% 65%;
+  background-size: max(1500px, 125%);
+  background-repeat: no-repeat;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 /* ------------------- BG Image Section End --------------------- */
 
 /* -------------------- Logo Section Start ----------------------------- */
-header nav{
-    /* background-color: aquamarine; */
-    width:62%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1.5rem 0 0 0;
+header nav {
+  /* background-color: aquamarine; */
+  width: 62%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 0 0 0;
 }
-header nav .logo img{
-    width: 9.5rem;
+header nav .logo img {
+  width: 9.5rem;
 }
-header nav .sign-in-section{
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    align-items: center;
-    justify-content: center;
-    /* border: 1px solid red; */
-    margin-bottom: 1rem;
+header nav .sign-in-section {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+  margin-bottom: 1rem;
 }
-header nav .sign-in-section .lang-btn{
-    cursor: default;
+header nav .sign-in-section .lang-btn {
+  cursor: default;
 }
-header nav .sign-in-section .lang-btn select{
-    padding: .2rem .8rem .2rem 2rem;
-    font-size: .95rem;
-    font-weight: 500;
-    border-radius: 4px;
-    background-color: rgba(0,0,0,.4);
-    color: #fff;
+header nav .sign-in-section .lang-btn select {
+  padding: 0.2rem 0.8rem 0.2rem 2rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
 }
-header nav .sign-in-section .lang-btn select option{
-    background-color: #fff;
-    color: #000000;
+header nav .sign-in-section .lang-btn select option {
+  background-color: #fff;
+  color: #000000;
 }
-header .fa-language{
-    color: #fff;
-    font-size: 1rem;
-    position: relative;
-    top: .1rem;
-    left: 2rem;
+header .fa-language {
+  color: #fff;
+  font-size: 1rem;
+  position: relative;
+  top: 0.1rem;
+  left: 2rem;
 }
-header nav .sign-in-section .sign-btn button{
-    padding: .35rem .9rem;
-    font-size: .9rem;
-    border-radius: 4px;
-    background-color: rgb(255, 0, 0);
-    color: #fff;
-    border: none;
-    font-weight: 500;
-    cursor: pointer;
-    transition: .3s ease-in-out;
+header nav .sign-in-section .sign-btn button {
+  padding: 0.35rem 0.9rem;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  background-color: rgb(255, 0, 0);
+  color: #fff;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
-header nav .sign-in-section .sign-btn button:hover{
-    background-color: #b70009;
+header nav .sign-in-section .sign-btn button:hover {
+  background-color: #b70009;
 }
 /* -------------------- Logo Section End ----------------------------- */
 
 /* --------------------- Hero Heading Text Section Start ------------- */
 
-header .heading-text{
-    color: #fff;
-    text-align: center;
+header .heading-text {
+  color: #fff;
+  text-align: center;
 }
 
-header .heading-text h1{
-    font-size: 2.85rem;
-    margin-bottom: .3rem;
-    cursor: default;
+header .heading-text h1 {
+  font-size: 2.85rem;
+  margin-bottom: 0.3rem;
+  cursor: default;
 }
-header .heading-text h2{
-    font-size: 1.4rem;
-    font-weight: 400;
-    margin-bottom: 1.5rem;
-    cursor: default;
+header .heading-text h2 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  cursor: default;
 }
-header .heading-text h3{
-    font-size: 1.16rem;
-    font-weight: 400;
-    margin-bottom: .8rem;
-    cursor: default;
+header .heading-text h3 {
+  font-size: 1.16rem;
+  font-weight: 400;
+  margin-bottom: 0.8rem;
+  cursor: default;
 }
-header .heading-text .email-box input{
-   width: 23rem;
-   height: 3.4rem;
-   background-color: rgba(0,0,0,.4);
-   color: #fff;
-   font-size: 1rem;
-   border: 1px solid rgba(255, 255, 255, 0.4);
-   padding: 0 0 0 1rem;
-   border-radius: 5px;
+header .heading-text .email-box input {
+  width: 23rem;
+  height: 3.4rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  font-size: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  padding: 0 0 0 1rem;
+  border-radius: 5px;
 }
-header .heading-text .email-box input::placeholder{
-    color: #d7d7d7;
+header .heading-text .email-box input::placeholder {
+  color: #d7d7d7;
 }
-header .heading-text .email-box button{
-    padding: 0 1.7rem;
-    height: 3.4rem;
-    font-size: 1.4rem;
-    border-radius: 5px;
-    background-color: #E50914;
-    border: none;
-    color: #fff;
-    font-weight: 500;
-    margin-left: .5rem;
-    cursor: pointer;
-    transition: .2s ease-in-out;
+header .heading-text .email-box button {
+  padding: 0 1.7rem;
+  height: 3.4rem;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  background-color: #e50914;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
 }
-header .heading-text .email-box button:hover{
-    background-color: #c30710;
+header .heading-text .email-box button:hover {
+  background-color: #c30710;
 }
- header .bar{
-    width: 100%;
-    height: .4rem;
-    background-color: #292929;
- }
+ .bar {
+  width: 100%;
+  height: 0.4rem;
+  background-color: #292929;
+}
 /* --------------------- Hero Heading Text Section End ------------- */
+/* ---------------------------------------------------- Header Section End -------------------------------------------------- */
+
+/* ----------------------------------------------------- Main Section Start -------------------------------------------------- */
+
+/* --------------------- Tv Section --------------------- */
+main .tv-section {
+  /* border: 1px solid yellowgreen; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  margin: auto;
+  height: 35rem;
+  position: relative;
+}
+main .tv-section .tv-text{
+    /* border: 1px solid yellowgreen; */
+    margin-left: -42%;
+}
+main .tv-section .tv-text h1{
+    color: #fff;
+    font-size: 3rem;
+    word-spacing: .05rem;
+}
+main .tv-section .tv-text p{
+    color: #fff;
+    font-size: 1.35rem;
+    word-spacing: .05rem;
+}
+main .tv-section .tv-img{
+    position: absolute;
+    top: 3rem;
+    right:50%;
+    z-index: -1;
+}
+main .tv-section .tv-img img{
+    width: 36rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    /* border: 1px solid red; */
+    overflow: hidden;
+}
+main .tv-section .tv-img video{
+    width: 29rem;
+    position: absolute;
+    top: 5rem;
+    left: 4.8rem;
+    z-index: 1;
+}
