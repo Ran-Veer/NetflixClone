@@ -251,17 +251,15 @@ main .tv-section .tv-img video{
   color: #0071EB;
   font-weight: 400;
 }
-.second-section .girl-img .download i{
-  color: #0071EB;
-  font-size: 1.6rem;
-  margin-left: 3.8rem;
-  animation: rotate 1.5s infinite;
+.second-section .girl-img .download .loding-icon{
+  /* color: #0071EB; */
+  margin-left: 2.6rem;
 }
-@keyframes rotate{
+/* @keyframes rotate{
   100%{
     transform: rotate(360deg);
   }
-}
+} */
 /* ------------------- Download Section End ----------------------- */
 
 /* ---------------- Second Section Text ----------- */
