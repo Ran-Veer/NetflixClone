@@ -277,11 +277,47 @@ main .tv-section .tv-img video{
   margin-top: 5px;
 }
 
-/* -------------------------- Section Section End -------------------- */
+/* -------------------------- Second Section End -------------------- */
+
+/* -------------------------- Third Section Srart ---------------------- */
 
 
-main .tv-section #sec-vid{
-    width:400px;
-    top: 2rem;
-    left: 6rem;
+main .third-section-tv{
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 35rem;
+  gap: 3.5rem;
+}
+/* main .third-section-tv .third-tv-text{
+  background-color: rgb(140, 107, 63);
+} */
+main .third-section-tv .third-tv-text h1{
+  color: #fff;
+  font-size: 2.9rem;
+  font-weight: 700;
+}
+main .third-section-tv .third-tv-text p{
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-top: .5rem;
+}
+main .third-section-tv .third-tv-img{
+  /* background-color: aqua; */
+  position: relative;
+}
+main .third-section-tv .third-tv-img img{
+  width: 37rem;
+  z-index: 4;
+  position: relative;
+}
+main .third-section-tv .third-tv-img video{
+  position: absolute;
+  top: 3.05rem;
+  left: 7.1rem;
+  z-index:3;
+  width: 27rem;
 }
