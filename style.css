@@ -252,14 +252,8 @@ main .tv-section .tv-img video{
   font-weight: 400;
 }
 .second-section .girl-img .download .loding-icon{
-  /* color: #0071EB; */
   margin-left: 2.6rem;
 }
-/* @keyframes rotate{
-  100%{
-    transform: rotate(360deg);
-  }
-} */
 /* ------------------- Download Section End ----------------------- */
 
 /* ---------------- Second Section Text ----------- */
@@ -311,6 +305,7 @@ main .third-section-tv .third-tv-img img{
   width: 37rem;
   z-index: 4;
   position: relative;
+  overflow: clip;
 }
 main .third-section-tv .third-tv-img video{
   position: absolute;
@@ -318,4 +313,5 @@ main .third-section-tv .third-tv-img video{
   left: 7.1rem;
   z-index:3;
   width: 27rem;
+  max-width: 63%;
 }
