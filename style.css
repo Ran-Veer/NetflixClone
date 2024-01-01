@@ -334,9 +334,6 @@ main .fourth-section .fourth-section-text p {
 /* ------------------------- Fourth  Section End ------------------- */
 
 /* -------------------------- FAQ Section Start ------------------------ */
-/* main .faq-section{
-  background-color: aquamarine;
-} */
 
 main .faq-section .faq-heading {
   /* background-color: rgb(159, 106, 86); */
@@ -427,4 +424,21 @@ main .faq-section .email-box-container h1{
   color: #fff;
   margin-bottom: 1rem;
   cursor: default;
+}
+/* -------------------------- FAQ Section End ------------------------------------- */
+
+/* ------------------------ Footer Section Start ---------------------------- */
+
+
+footer .footer-container{
+  width: 62%;
+  margin:3.5rem auto;
+  background-color: aquamarine;
+}
+footer .menu-container{
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
