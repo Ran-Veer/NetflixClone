@@ -53,10 +53,10 @@ header nav .sign-in-section {
   /* border: 1px solid red; */
   margin-bottom: 1rem;
 }
-header nav .sign-in-section .lang-btn {
+header nav .sign-in-section .lang-btn, .footer-container .lang-btn{
   cursor: default;
 }
-header nav .sign-in-section .lang-btn select {
+header nav .sign-in-section .lang-btn select, .footer-container .lang-btn select{
   padding: 0.2rem 0.8rem 0.2rem 2rem;
   font-size: 0.95rem;
   font-weight: 500;
@@ -64,11 +64,11 @@ header nav .sign-in-section .lang-btn select {
   background-color: rgba(0, 0, 0, 0.4);
   color: #fff;
 }
-header nav .sign-in-section .lang-btn select option {
+header nav .sign-in-section .lang-btn select option, .footer-container .lang-btn select option {
   background-color: #fff;
   color: #000000;
 }
-header .fa-language {
+header .fa-language, .footer-container .fa-language {
   color: #fff;
   font-size: 1rem;
   position: relative;
@@ -447,7 +447,7 @@ footer .footer-container .call-container h3 a{
 }
 footer .menu-container{
   /* background-color: aqua; */
-  width: 85%;
+  width: 88%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -459,7 +459,16 @@ footer .menu-container .menu-list ul li{
   margin-bottom: .5rem;
 }
 footer .menu-container .menu-list ul li a{
-  font-size: .9rem;
+  font-size: .85rem;
   font-weight: 500;
   color: #b8b8b8;
+}
+.footer-container .lang-btn{
+  margin-left: -1.5rem;
+}
+.footer-container .netflix-india h4{
+  color: #b8b8b8;
+  font-size: .9rem;
+  font-weight: 400;
+  margin-top: 1.5rem;
 }
