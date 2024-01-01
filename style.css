@@ -115,7 +115,7 @@ header .heading-text h3 {
   margin-bottom: 0.8rem;
   cursor: default;
 }
-header .heading-text .email-box input {
+header .heading-text .email-box input, main .faq-section .email-box input{
   width: 23rem;
   height: 3.4rem;
   background-color: rgba(0, 0, 0, 0.4);
@@ -125,10 +125,10 @@ header .heading-text .email-box input {
   padding: 0 0 0 1rem;
   border-radius: 5px;
 }
-header .heading-text .email-box input::placeholder {
+header .heading-text .email-box input::placeholder, main .faq-section .email-box input::placeholder {
   color: #d7d7d7;
 }
-header .heading-text .email-box button {
+header .heading-text .email-box button, main .faq-section .email-box button {
   padding: 0 1.7rem;
   height: 3.4rem;
   font-size: 1.4rem;
@@ -141,7 +141,7 @@ header .heading-text .email-box button {
   cursor: pointer;
   transition: 0.2s ease-in-out;
 }
-header .heading-text .email-box button:hover {
+header .heading-text .email-box button:hover, main .faq-section .email-box button:hover {
   background-color: #c30710;
 }
 .bar {
@@ -407,4 +407,18 @@ main .faq-section .faq-questions-container .questions .content p:nth-child(1) {
 main .faq-section .faq-questions-container .questions .content p:nth-child(2) {
   padding: 0rem 1.2rem 1.5rem 1.5rem;
   font-size: 1.3rem;
+}
+main .faq-section .email-box-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aquamarine; */
+  margin-top: 1.8rem;
+}
+main .faq-section .email-box-container h1{
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 1rem;
 }
