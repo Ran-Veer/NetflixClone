@@ -347,6 +347,7 @@ main .faq-section .faq-heading h1 {
   font-size: 2.85rem;
   color: #fff;
   font-weight: 900;
+  cursor: default;
 }
 main .faq-section .faq-questions-container {
   /* background-color: burlywood; */
@@ -385,6 +386,10 @@ main .faq-section .faq-questions-container .questions label {
   background-color: #2d2d2d;
   padding: 1.5rem;
   border-bottom: 1px solid #000000;
+  transition: .3s ease-in-out;
+}
+main .faq-section .faq-questions-container .questions label:hover{
+  background-color: #474747;
 }
 main .faq-section .faq-questions-container .questions label span {
   /* background-color:crimson; */
@@ -414,11 +419,12 @@ main .faq-section .email-box-container{
   align-items: center;
   justify-content: center;
   /* background-color: aquamarine; */
-  margin-top: 1.8rem;
+  margin: 1.8rem 0 3.8rem 0;
 }
 main .faq-section .email-box-container h1{
   font-size: 1.1rem;
   font-weight: 500;
   color: #fff;
   margin-bottom: 1rem;
+  cursor: default;
 }
