@@ -435,6 +435,16 @@ footer .footer-container{
   margin:3.5rem auto;
   background-color: aquamarine;
 }
+footer .footer-container .call-container h3{
+  font-size: .9rem;
+  color: #757575;
+  font-weight: 500;
+}
+footer .footer-container .call-container h3 a{
+  font-size: .9rem;
+  color: #757575;
+  margin-left: .2rem;
+}
 footer .menu-container{
   background-color: aqua;
   display: flex;
