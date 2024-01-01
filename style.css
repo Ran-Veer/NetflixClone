@@ -330,3 +330,17 @@ main .fourth-section .fourth-section-text p{
   line-height: 1.6rem;
   margin-top: .5rem;
 }
+/* ------------------------- Fourth  Section End ------------------- */
+
+/* -------------------------- FAQ Section Start ------------------------ */
+main .faq-section{
+  background-color: aquamarine;
+}
+
+main .faq-section .faq-heading{
+  background-color: coral;
+  text-align: center;
+}
+main .faq-section .faq-questions-container{
+  background-color: burlywood;
+}
