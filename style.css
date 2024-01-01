@@ -5,6 +5,9 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: black;
 }
@@ -333,14 +336,62 @@ main .fourth-section .fourth-section-text p{
 /* ------------------------- Fourth  Section End ------------------- */
 
 /* -------------------------- FAQ Section Start ------------------------ */
-main .faq-section{
+/* main .faq-section{
   background-color: aquamarine;
-}
+} */
 
 main .faq-section .faq-heading{
-  background-color: coral;
+  /* background-color: rgb(159, 106, 86); */
   text-align: center;
+  margin: 3.4rem 0 1rem 0;
+}
+main .faq-section .faq-heading h1{
+  font-size: 2.85rem;
+  color: #fff;
+  font-weight: 900;
 }
 main .faq-section .faq-questions-container{
-  background-color: burlywood;
+  /* background-color: burlywood; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main .faq-section .faq-questions-container ul{
+  width: 62%;
+}
+main .faq-section .faq-questions-container ul li{
+  list-style: none;
+  color: #fff;
+  background-color:#2D2D2D;
+  margin-bottom: .5rem;
+}
+main .faq-section .faq-questions-container ul li input[type="radio"]{
+  display: none;
+}
+main .faq-section .faq-questions-container .questions label{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color:#2D2D2D;
+  padding: 1.5rem;
+  border-bottom: 1px solid #000000;
+}
+main .faq-section .faq-questions-container .questions label span{
+  /* background-color:crimson; */
+  color: #fff;
+  font-size: 1.35rem;
+}
+main .faq-section .faq-questions-container .questions label i{
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+main .faq-section .faq-questions-container .questions .content p:nth-child(1){
+  padding: 1.5rem 1.2rem 1.5rem 1.5rem;
+  font-size: 1.3rem;
+}
+main .faq-section .faq-questions-container .questions .content p:nth-child(2){
+  padding: 0rem 1.2rem 1.5rem 1.5rem;
+  font-size: 1.3rem;
 }
