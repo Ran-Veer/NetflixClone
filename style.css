@@ -23,7 +23,7 @@ header {
   background-position: 50% 65%;
   background-size: max(1500px, 125%);
   background-repeat: no-repeat;
-  height: 75vh;
+  height: 43rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -101,6 +101,7 @@ header .heading-text {
 header marquee{
   color: #fff;
   font-size: 1.2rem;
+  cursor: default;
 }
 header marquee span{
   color: rgb(255, 63, 63);
