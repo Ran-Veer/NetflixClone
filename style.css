@@ -494,8 +494,74 @@ footer .menu-container .menu-list ul li a{
 
 /* ----------------------- Media Query Section Start ---------------------- */
 
-/* ------------------------ 1280 px ------------------- */
-@media only  screen and (max-width:1280px){
+/* ------------------------ 1279 px ------------------------------- */
+@media only screen and (min-width:1173px) and (max-width:1279px){
+/* ----------------- Navigation section Start ----------- */
+header nav {
+  width: 95%;
+}
+header nav .logo img {
+  width: 9rem;
+}
+header nav .sign-in-section {
+  gap: 1.5rem;
+}
+header nav .sign-in-section .sign-btn button {
+  font-size: 0.85rem;
+}
+header nav .sign-in-section .lang-btn select, .footer-container .lang-btn select{
+  font-size: 0.9rem;
+}
+/* ----------------- Navigation section End ----------- */
+/* ---------------- First Section Start ----------------*/
+main .tv-section {
+  width: 100%;
+  margin: auto;
+  padding: 0 1rem;
+  justify-content: space-between;
+  /* background-color: aquamarine; */
+}
+main .tv-section .tv-img img {
+  width: 38rem;
+}
+main .tv-section .tv-img video {
+  width: 31rem;
+}
+main .tv-section .tv-text{
+  width: 38rem;
+}
+/* ---------------- First Section End ----------------*/
+ /* -------------------- Footer Section Start ------------- */
+ footer .footer-container{
+  width: 95%;
+}
+footer .menu-container .menu-list ul li{
+  margin-bottom: .8rem;
+}
+footer .menu-container .menu-list ul li a{
+  font-size: .8rem;
+}
+footer .footer-container .call-container h3{
+  font-size: 1rem;
+}
+footer .footer-container .call-container h3 a{
+  font-size: 1rem;
+}
+footer .menu-container{
+  width: 85%;
+}
+/* -------------------- Footer Section End ------------- */
+/* ------------------------ FAQ Section Start ----------- */
+main .faq-section .faq-questions-container ul {
+  width: 95%;
+}
+/* ------------------------ FAQ Section End ----------- */
+}
+
+
+
+/* ------------------------ 1280 px to 1440px ------------------- */
+@media only  screen and (min-width:1280px) and (max-width:1440px){
   /* ----------------- Navigation section Start ----------- */
   header nav {
     width: 75%;
@@ -614,8 +680,19 @@ footer .menu-container .menu-list ul li a{
   /* --------------- FAQ Section End ----------------- */
   /* -------------------- Footer Section Start ------------- */
   footer .footer-container{
-    width: 70%;
-    margin:3.5rem auto;
-    /* background-color: aquamarine; */
+    width: 75%;
   }
+  footer .menu-container .menu-list ul li{
+    margin-bottom: .8rem;
+  }
+  footer .menu-container .menu-list ul li a{
+    font-size: .8rem;
+  }
+  footer .footer-container .call-container h3{
+    font-size: .9rem;
+  }
+  footer .footer-container .call-container h3 a{
+    font-size: .9rem;
+  }
+   /* -------------------- Footer Section Start ------------- */
 }
