@@ -96,6 +96,7 @@ header nav .sign-in-section .sign-btn button:hover {
 header .heading-text {
   color: #fff;
   text-align: center;
+  /* background-color: aquamarine; */
 }
 /* ---------------------- Marquee Section Start ------------- */
 header marquee{
@@ -174,6 +175,9 @@ main .tv-section {
   justify-content: center;
   align-items: center;
   height: 35rem;
+}
+main .tv-section .tv-text{
+  width: 30%;
 }
 main .tv-section .tv-text h1 {
   color: #fff;
@@ -485,3 +489,65 @@ footer .menu-container .menu-list ul li a{
   margin-top: 1.5rem;
 }
 /* ------------------------ Footer Section End ---------------------------- */
+
+/* ----------------------- Media Query Section Start ---------------------- */
+
+/* ------------------------ 1280 px ------------------- */
+@media only  screen and (max-width:1280px){
+  /* ----------------- Navigation section Start ----------- */
+  header nav {
+    width: 75%;
+  }
+  header nav .logo img {
+    width: 8.5rem;
+  }
+  header nav .sign-in-section {
+    gap: 1.5rem;
+  }
+  header nav .sign-in-section .sign-btn button {
+    font-size: 0.8rem;
+  }
+  header nav .sign-in-section .lang-btn select, .footer-container .lang-btn select{
+    font-size: 0.9rem;
+  }
+  /* ----------------- Navigation section End ----------- */
+  /* ---------------- Hero Heading Section Start ------------- */
+  header .heading-text {
+    width: 60rem;
+  }
+  header .heading-text h2 {
+    font-size: 1.3rem;
+  }
+  header .heading-text h3 {
+    font-size: 1.1rem;
+  }
+  /* ---------------- Hero Heading Section End ------------- */
+  /* ---------------- First Section Start ----------------*/
+   main .tv-section {
+    width: 62rem;
+    margin:  auto;
+    /* background-color: aquamarine; */
+  }
+  main .tv-section .tv-img img {
+    width: 31rem;
+  }
+  main .tv-section .tv-img video {
+    width: 24rem;
+    top: 4.85rem;
+    left: 4.05rem;
+  }
+  main .tv-section .tv-text{
+    width: 100%;
+  }
+  main .tv-section .tv-text h1 {
+    color: #fff;
+    font-size: 3rem;
+    word-spacing: 0.05rem;
+  }
+  main .tv-section .tv-text p {
+    color: #fff;
+    font-size: 1.35rem;
+    word-spacing: 0.05rem;
+  }
+  /* ---------------- First Section End ----------------*/
+}
