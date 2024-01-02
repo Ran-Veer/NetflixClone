@@ -53,10 +53,12 @@ header nav .sign-in-section {
   /* border: 1px solid red; */
   margin-bottom: 1rem;
 }
-header nav .sign-in-section .lang-btn, .footer-container .lang-btn{
+header nav .sign-in-section .lang-btn,
+.footer-container .lang-btn {
   cursor: default;
 }
-header nav .sign-in-section .lang-btn select, .footer-container .lang-btn select{
+header nav .sign-in-section .lang-btn select,
+.footer-container .lang-btn select {
   padding: 0.2rem 0.8rem 0.2rem 2rem;
   font-size: 0.95rem;
   font-weight: 500;
@@ -64,11 +66,13 @@ header nav .sign-in-section .lang-btn select, .footer-container .lang-btn select
   background-color: rgba(0, 0, 0, 0.4);
   color: #fff;
 }
-header nav .sign-in-section .lang-btn select option, .footer-container .lang-btn select option {
+header nav .sign-in-section .lang-btn select option,
+.footer-container .lang-btn select option {
   background-color: #fff;
   color: #000000;
 }
-header .fa-language, .footer-container .fa-language {
+header .fa-language,
+.footer-container .fa-language {
   color: #fff;
   font-size: 1rem;
   position: relative;
@@ -99,12 +103,12 @@ header .heading-text {
   /* background-color: aquamarine; */
 }
 /* ---------------------- Marquee Section Start ------------- */
-header marquee{
+header marquee {
   color: #fff;
   font-size: 1.2rem;
   cursor: default;
 }
-header marquee span{
+header marquee span {
   color: rgb(255, 63, 63);
   font-size: 1.3rem;
   font-weight: 500;
@@ -128,7 +132,8 @@ header .heading-text h3 {
   margin-bottom: 0.8rem;
   cursor: default;
 }
-header .heading-text .email-box input, main .faq-section .email-box input{
+header .heading-text .email-box input,
+main .faq-section .email-box input {
   width: 23rem;
   height: 3.4rem;
   background-color: rgba(0, 0, 0, 0.4);
@@ -138,10 +143,12 @@ header .heading-text .email-box input, main .faq-section .email-box input{
   padding: 0 0 0 1rem;
   border-radius: 5px;
 }
-header .heading-text .email-box input::placeholder, main .faq-section .email-box input::placeholder {
+header .heading-text .email-box input::placeholder,
+main .faq-section .email-box input::placeholder {
   color: #d7d7d7;
 }
-header .heading-text .email-box button, main .faq-section .email-box button {
+header .heading-text .email-box button,
+main .faq-section .email-box button {
   padding: 0 1.7rem;
   height: 3.4rem;
   font-size: 1.4rem;
@@ -154,7 +161,8 @@ header .heading-text .email-box button, main .faq-section .email-box button {
   cursor: pointer;
   transition: 0.2s ease-in-out;
 }
-header .heading-text .email-box button:hover, main .faq-section .email-box button:hover {
+header .heading-text .email-box button:hover,
+main .faq-section .email-box button:hover {
   background-color: #c30710;
 }
 .bar {
@@ -176,7 +184,7 @@ main .tv-section {
   align-items: center;
   height: 35rem;
 }
-main .tv-section .tv-text{
+main .tv-section .tv-text {
   width: 30%;
 }
 main .tv-section .tv-text h1 {
@@ -222,7 +230,7 @@ main .tv-section .tv-img video {
   position: relative;
 }
 .second-section .girl-img > img {
-/* border: 1px solid yellowgreen; */
+  /* border: 1px solid yellowgreen; */
   width: 36rem;
 }
 /* ------------------- Download Section Start ----------------------- */
@@ -242,7 +250,7 @@ main .tv-section .tv-img video {
   border: 2.5px solid #757575;
   background-color: #000000;
 }
-.second-section .girl-img .download img:nth-child(1){
+.second-section .girl-img .download img:nth-child(1) {
   width: 3.5rem;
   /* border: 1px solid aqua; */
 }
@@ -401,9 +409,9 @@ main .faq-section .faq-questions-container .questions label {
   background-color: #2d2d2d;
   padding: 1.5rem;
   border-bottom: 1px solid #000000;
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
-main .faq-section .faq-questions-container .questions label:hover{
+main .faq-section .faq-questions-container .questions label:hover {
   background-color: #474747;
 }
 main .faq-section .faq-questions-container .questions label span {
@@ -428,7 +436,7 @@ main .faq-section .faq-questions-container .questions .content p:nth-child(2) {
   padding: 0rem 1.2rem 1.5rem 1.5rem;
   font-size: 1.3rem;
 }
-main .faq-section .email-box-container{
+main .faq-section .email-box-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -436,7 +444,7 @@ main .faq-section .email-box-container{
   /* background-color: aquamarine; */
   margin: 1.8rem 0 3.8rem 0;
 }
-main .faq-section .email-box-container h1{
+main .faq-section .email-box-container h1 {
   font-size: 1.1rem;
   font-weight: 500;
   color: #fff;
@@ -447,46 +455,45 @@ main .faq-section .email-box-container h1{
 
 /* ------------------------ Footer Section Start ---------------------------- */
 
-
-footer .footer-container{
+footer .footer-container {
   width: 62%;
-  margin:3.5rem auto;
+  margin: 3.5rem auto;
   /* background-color: aquamarine; */
 }
-footer .footer-container .call-container h3{
+footer .footer-container .call-container h3 {
   font-size: 1rem;
   color: #b8b8b8;
   font-weight: 500;
 }
-footer .footer-container .call-container h3 a{
+footer .footer-container .call-container h3 a {
   font-size: 1rem;
   color: #b8b8b8;
-  margin-left: .2rem;
+  margin-left: 0.2rem;
 }
-footer .menu-container{
+footer .menu-container {
   /* background-color: aqua; */
   width: 88%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   /* align-items: center; */
-  margin: .8rem 0;
+  margin: 0.8rem 0;
 }
-footer .menu-container .menu-list ul li{
+footer .menu-container .menu-list ul li {
   list-style: none;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
-footer .menu-container .menu-list ul li a{
-  font-size: .85rem;
+footer .menu-container .menu-list ul li a {
+  font-size: 0.85rem;
   font-weight: 500;
   color: #b8b8b8;
 }
-.footer-container .lang-btn{
+.footer-container .lang-btn {
   margin-left: -1.5rem;
 }
-.footer-container .netflix-india h4{
+.footer-container .netflix-india h4 {
   color: #b8b8b8;
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-weight: 400;
   margin-top: 1.5rem;
 }
@@ -494,74 +501,110 @@ footer .menu-container .menu-list ul li a{
 
 /* ----------------------- Media Query Section Start ---------------------- */
 
-/* ------------------------ 1279 px ------------------------------- */
-@media only screen and (min-width:1173px) and (max-width:1279px){
-/* ----------------- Navigation section Start ----------- */
-header nav {
-  width: 95%;
-}
-header nav .logo img {
-  width: 9rem;
-}
-header nav .sign-in-section {
-  gap: 1.5rem;
-}
-header nav .sign-in-section .sign-btn button {
-  font-size: 0.85rem;
-}
-header nav .sign-in-section .lang-btn select, .footer-container .lang-btn select{
-  font-size: 0.9rem;
-}
-/* ----------------- Navigation section End ----------- */
-/* ---------------- First Section Start ----------------*/
-main .tv-section {
-  width: 100%;
-  margin: auto;
-  padding: 0 1rem;
-  justify-content: space-between;
-  /* background-color: aquamarine; */
-}
-main .tv-section .tv-img img {
-  width: 38rem;
-}
-main .tv-section .tv-img video {
-  width: 31rem;
-}
-main .tv-section .tv-text{
-  width: 38rem;
-}
-/* ---------------- First Section End ----------------*/
- /* -------------------- Footer Section Start ------------- */
- footer .footer-container{
-  width: 95%;
-}
-footer .menu-container .menu-list ul li{
-  margin-bottom: .8rem;
-}
-footer .menu-container .menu-list ul li a{
-  font-size: .8rem;
-}
-footer .footer-container .call-container h3{
-  font-size: 1rem;
-}
-footer .footer-container .call-container h3 a{
-  font-size: 1rem;
-}
-footer .menu-container{
-  width: 85%;
-}
-/* -------------------- Footer Section End ------------- */
-/* ------------------------ FAQ Section Start ----------- */
-main .faq-section .faq-questions-container ul {
-  width: 95%;
-}
-/* ------------------------ FAQ Section End ----------- */
+/* ------------------------- 1172px -------------------------- */
+@media only screen and (max-width: 1172px) {
+  /* ----------------- Navigation section Start ----------- */
+  header nav {
+    width: 95%;
+  }
+  header nav .sign-in-section {
+    gap: 1.5rem;
+  }
+  /* ----------------- Navigation section End ----------- */
+  /* ---------------- Hero Heading Section Start ------------- */
+  header .heading-text {
+    width: 65rem;
+  }
+  /* ---------------- Hero Heading Section End ------------- */
+  /* ---------------- First Section Start ----------------*/
+  main .tv-section {
+    width: 100%;
+    margin: auto;
+    padding: 0 1.8rem;
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+  }
+  main .tv-section .tv-img img {
+    width: 34rem;
+  }
+  main .tv-section .tv-img video {
+    width: 27rem;
+    top: 4.85rem;
+    left: 4.2rem;
+  }
+  main .tv-section .tv-text {
+    width: 38rem;
+  }
+  /* ---------------- First Section End ----------------*/
 }
 
-
+/* ------------------------ 1173px To 1279px ------------------------------- */
+@media only screen and (min-width: 1173px) and (max-width: 1279px) {
+  /* ----------------- Navigation section Start ----------- */
+  header nav {
+    width: 95%;
+  }
+  header nav .logo img {
+    width: 9rem;
+  }
+  header nav .sign-in-section {
+    gap: 1.5rem;
+  }
+  header nav .sign-in-section .sign-btn button {
+    font-size: 0.85rem;
+  }
+  header nav .sign-in-section .lang-btn select,
+  .footer-container .lang-btn select {
+    font-size: 0.9rem;
+  }
+  /* ----------------- Navigation section End ----------- */
+  /* ---------------- First Section Start ----------------*/
+  main .tv-section {
+    width: 100%;
+    margin: auto;
+    padding: 0 1rem;
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+  }
+  main .tv-section .tv-img img {
+    width: 38rem;
+  }
+  main .tv-section .tv-img video {
+    width: 31rem;
+  }
+  main .tv-section .tv-text {
+    width: 38rem;
+  }
+  /* ---------------- First Section End ----------------*/
+  /* -------------------- Footer Section Start ------------- */
+  footer .footer-container {
+    width: 95%;
+  }
+  footer .menu-container .menu-list ul li {
+    margin-bottom: 0.8rem;
+  }
+  footer .menu-container .menu-list ul li a {
+    font-size: 0.8rem;
+  }
+  footer .footer-container .call-container h3 {
+    font-size: 1rem;
+  }
+  footer .footer-container .call-container h3 a {
+    font-size: 1rem;
+  }
+  footer .menu-container {
+    width: 85%;
+  }
+  /* -------------------- Footer Section End ------------- */
+  /* ------------------------ FAQ Section Start ----------- */
+  main .faq-section .faq-questions-container ul {
+    width: 95%;
+  }
+  /* ------------------------ FAQ Section End ----------- */
+}
 
 /* ------------------------ 1280 px to 1440px ------------------- */
-@media only  screen and (min-width:1280px) and (max-width:1440px){
+@media only screen and (min-width: 1280px) and (max-width: 1440px) {
   /* ----------------- Navigation section Start ----------- */
   header nav {
     width: 75%;
@@ -575,7 +618,8 @@ main .faq-section .faq-questions-container ul {
   header nav .sign-in-section .sign-btn button {
     font-size: 0.8rem;
   }
-  header nav .sign-in-section .lang-btn select, .footer-container .lang-btn select{
+  header nav .sign-in-section .lang-btn select,
+  .footer-container .lang-btn select {
     font-size: 0.9rem;
   }
   /* ----------------- Navigation section End ----------- */
@@ -591,9 +635,9 @@ main .faq-section .faq-questions-container ul {
   }
   /* ---------------- Hero Heading Section End ------------- */
   /* ---------------- First Section Start ----------------*/
-   main .tv-section {
+  main .tv-section {
     width: 62rem;
-    margin:  auto;
+    margin: auto;
     /* background-color: aquamarine; */
   }
   main .tv-section .tv-img img {
@@ -604,7 +648,7 @@ main .faq-section .faq-questions-container ul {
     top: 4.85rem;
     left: 4.05rem;
   }
-  main .tv-section .tv-text{
+  main .tv-section .tv-text {
     width: 100%;
   }
   main .tv-section .tv-text h1 {
@@ -619,7 +663,7 @@ main .faq-section .faq-questions-container ul {
   }
   /* ---------------- First Section End ----------------*/
   /* ----------------- Second Section Start ----------------- */
-  .second-section{
+  .second-section {
     padding: 0 10rem;
     height: 33rem;
   }
@@ -628,7 +672,7 @@ main .faq-section .faq-questions-container ul {
     width: 30rem;
   }
   .second-section .girl-img .download img:nth-child(3) {
-    margin-left:0rem;
+    margin-left: 0rem;
     width: 2.9rem;
     /* border: 1px solid aqua */
   }
@@ -636,7 +680,7 @@ main .faq-section .faq-questions-container ul {
     width: 55%;
     left: 6.9rem;
   }
-  .second-section .girl-img .download img:nth-child(1){
+  .second-section .girl-img .download img:nth-child(1) {
     width: 3.5rem;
   }
   .second-section .girl-img .download .text h2 {
@@ -679,20 +723,20 @@ main .faq-section .faq-questions-container ul {
   }
   /* --------------- FAQ Section End ----------------- */
   /* -------------------- Footer Section Start ------------- */
-  footer .footer-container{
+  footer .footer-container {
     width: 75%;
   }
-  footer .menu-container .menu-list ul li{
-    margin-bottom: .8rem;
+  footer .menu-container .menu-list ul li {
+    margin-bottom: 0.8rem;
   }
-  footer .menu-container .menu-list ul li a{
-    font-size: .8rem;
+  footer .menu-container .menu-list ul li a {
+    font-size: 0.8rem;
   }
-  footer .footer-container .call-container h3{
-    font-size: .9rem;
+  footer .footer-container .call-container h3 {
+    font-size: 0.9rem;
   }
-  footer .footer-container .call-container h3 a{
-    font-size: .9rem;
+  footer .footer-container .call-container h3 a {
+    font-size: 0.9rem;
   }
-   /* -------------------- Footer Section Start ------------- */
+  /* -------------------- Footer Section Start ------------- */
 }
