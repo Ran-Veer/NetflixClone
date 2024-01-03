@@ -501,8 +501,244 @@ footer .menu-container .menu-list ul li a {
 
 /* ----------------------- Media Query Section Start ---------------------- */
 
-/* ------------------------- 1172px -------------------------- */
-@media only screen and (max-width: 1172px) {
+/* -------------------------- 959px -------------------------- */
+@media only screen and (max-width:959px){
+  /* ----------------- Navigation section Start ----------- */
+  header nav {
+    width: 95%;
+  }
+  header nav .logo img {
+    width: 6rem;
+  }
+  header nav .sign-in-section {
+    gap: .5rem;
+  }
+  /* ----------------- Navigation section End ----------- */
+  /* ---------------- Hero Heading Section Start ------------- */
+  header{
+    height: 32rem;
+  }
+  header .heading-text {
+    width: 95%;
+    /* background-color: aquamarine; */
+  }
+  header .heading-text .email-box input{
+    margin-bottom: .8rem;
+  }
+  header .heading-text h1 {
+    font-size: 1.85rem;
+  }
+  header .heading-text h2 {
+    font-size: 1rem;
+  }
+  header .heading-text h3 {
+    font-size: 1rem;
+  }
+  /* ---------------------- Marquee Section Start ------------- */
+  header marquee {
+   color: #fff;
+   font-size: .9rem;
+   cursor: default;
+  }
+  header marquee span {
+   color: rgb(255, 63, 63);
+   font-size: 1rem;
+   font-weight: 500;
+  }
+ /* ---------------------- Marquee Section End ------------- */
+ /* ---------------- Hero Heading Section End ------------- */
+ /* --------------------- First Section Start --------------------- */
+  main .tv-section {
+   /* border: 1px solid yellowgreen; */
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   height:100%;
+   padding: 5rem 0 5rem 0;
+  }
+  main .tv-section .tv-text {
+   width: 100%;
+   text-align: center;
+   /* background-color: #0071eb; */
+  }
+  main .tv-section .tv-text h1 {
+   font-size: 2rem;
+  }
+  main .tv-section .tv-text p {
+   font-size: 1.02rem;
+   margin-top: .5rem;
+  }
+  main .tv-section .tv-img img {
+    width: 100%;
+  }
+  main .tv-section .tv-img video {
+    width: 85%;
+    top: 18%;
+    left: 12.5%;
+  }
+ /* --------------------- First Section End --------------------- */
+ /* ----------------- Second Section Start ----------------- */
+  .second-section{
+    gap: 0;
+    /* padding: 0 1rem 0 0; */
+    flex-direction: column-reverse;
+    height:100%;
+    padding: 3rem 0;
+  }
+  .second-section .second-section-text{
+    text-align: center;
+    width: 100%;
+    /* background-color: #0071eb; */
+  }
+  .second-section .second-section-text h1{
+    font-size: 1.9rem;
+  }
+  .second-section .second-section-text p{
+    font-size: 1.05rem;
+  }
+  .second-section .girl-img > img {
+    width: 95%;
+  }
+  .second-section .girl-img .download img:nth-child(3) {
+    margin-left: 10%;
+    max-width: 55%;
+  }
+  .second-section .girl-img .download {
+    width: 58%;
+    left: 6.8rem;
+  }
+  .second-section .girl-img .download .text h2 {
+    font-size: 0.9rem;
+  }
+  .second-section .girl-img .download .text h2 span {
+    font-size: 0.8rem;
+  }
+ /* ----------------- Second Section End ----------------- */
+ /* ---------------- Third Section Start ------------------- */
+  main .third-section-tv {
+   /* background-color: aquamarine; */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+   gap: 0rem;
+   padding: 5rem 0;
+  }
+  main .third-section-tv .third-tv-text{
+    /* background-color: #0071eb; */
+    text-align: center;
+  }
+  main .third-section-tv .third-tv-text h1{
+    font-size: 1.8rem;
+  }
+  main .third-section-tv .third-tv-text p{
+    font-size: 1rem;
+  }
+  main .third-section-tv .third-tv-img img {
+    width: 100%;
+  }
+  main .third-section-tv .third-tv-img video {
+    top: 3rem;
+    left: 6.5rem;
+    width: 60%;
+    max-width: 80%;
+  }
+  /* ------------------------ Third Section End ------------------ */
+  /* ----------------------------- Fourth Section Start ----------------- */
+  main .fourth-section {
+    /* background-color: aquamarine; */
+    flex-direction: column-reverse;
+    gap: 0rem;
+    height: 100%;
+    padding: 5rem 0;
+  }
+  main .fourth-section .children-img img{
+    /* border: 1px solid yellow; */
+    max-width: 100%;
+  }
+  main .fourth-section .fourth-section-text{
+    text-align: center;
+  }
+  main .fourth-section .fourth-section-text h1{
+    font-size: 1.9rem;
+  }
+  main .fourth-section .fourth-section-text p{
+    font-size: 1rem;
+    /* border: 1px solid yellowgreen; */
+  }
+  /* ----------------------------- Fourth Section End ----------------- */
+  /* -------------------- FAQ Section Start ------------------ */
+  main .faq-section .faq-questions-container ul {
+    width: 95%;
+  }
+  main .faq-section .faq-heading h1{
+    font-size: 1.9rem;
+  }
+  main .faq-section .faq-questions-container .questions label{
+    padding: 1rem;
+  }
+  main .faq-section .faq-questions-container .questions label span {
+    /* background-color:crimson; */
+    color: #fff;
+    font-size: 1.1rem;
+  }
+  main .faq-section .faq-questions-container .questions label i {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  main .faq-section .faq-questions-container .questions .content p:nth-child(1) {
+    font-size: 1.1rem;
+  }
+  main .faq-section .faq-questions-container .questions .content p:nth-child(2) {
+    font-size: 1.1rem;
+  }
+  main .faq-section .email-box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aquamarine; */
+    /* margin: 1.8rem 0 3.8rem 0; */
+    padding: 0 1rem;
+    width: 100%;
+    text-align: center;
+  }
+  main .faq-section .email-box-container h1 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 1rem;
+    cursor: default;
+  }
+  main .faq-section .email-box-container input{
+    margin-bottom: .8rem;
+  }
+  /* -------------------- FAQ Section End ------------------ */
+  /* --------------------------- Footer Section Start ----------- */
+  footer .footer-container {
+    width: 95%;
+  }
+  footer .menu-container {
+    width: 85%;
+    margin: 0.8rem 0;
+  }
+  footer .menu-container .menu-list ul li {
+    margin-bottom: .9rem;
+    margin-right: .5rem;
+  }
+  footer .footer-container {
+    width: 100%;
+    margin: 1rem auto;
+    padding: 0 2rem;
+    /* background-color: aquamarine; */
+  }
+  /* --------------------------- Footer Section End ----------- */
+
+}
+
+/* ------------------------- 960px To 1172px -------------------------- */
+@media only screen and (min-width:960px) and (max-width: 1172px) {
   /* ----------------- Navigation section Start ----------- */
   header nav {
     width: 95%;
@@ -513,7 +749,7 @@ footer .menu-container .menu-list ul li a {
   /* ----------------- Navigation section End ----------- */
   /* ---------------- Hero Heading Section Start ------------- */
   header .heading-text {
-    max-width: 89%;
+    width: 95%;
     /* background-color: aquamarine; */
   }
   /* ---------------- Hero Heading Section End ------------- */
@@ -586,7 +822,7 @@ footer .menu-container .menu-list ul li a {
     width: 60%;
     max-width: 80%;
   }
-  /* -------------- Third Section End */
+  /* -------------- Third Section End ----------------*/
   /* ----------------- Fourth Section Start -------------- */
   main .fourth-section {
     padding: 0 2rem;
