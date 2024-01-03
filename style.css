@@ -513,29 +513,107 @@ footer .menu-container .menu-list ul li a {
   /* ----------------- Navigation section End ----------- */
   /* ---------------- Hero Heading Section Start ------------- */
   header .heading-text {
-    width: 65rem;
+    max-width: 89%;
+    /* background-color: aquamarine; */
   }
   /* ---------------- Hero Heading Section End ------------- */
   /* ---------------- First Section Start ----------------*/
   main .tv-section {
-    width: 100%;
+    max-width: 100%;
     margin: auto;
     padding: 0 1.8rem;
     justify-content: space-between;
     /* background-color: aquamarine; */
   }
   main .tv-section .tv-img img {
-    width: 34rem;
+    max-width: 95%;
   }
   main .tv-section .tv-img video {
-    width: 27rem;
-    top: 4.85rem;
-    left: 4.2rem;
+    width: 80%;
+    top: 18%;
+    left: 12.5%;
   }
   main .tv-section .tv-text {
     width: 38rem;
   }
   /* ---------------- First Section End ----------------*/
+  /* ----------------- Second Section Start ----------------- */
+    .second-section{
+      gap: 0;
+      padding: 0 1rem 0 0;
+    }
+    .second-section .second-section-text h1{
+      font-size: 2.5rem;
+    }
+    .second-section .second-section-text p{
+      font-size: 1.3rem;
+    }
+    .second-section .girl-img > img {
+      width: 95%;
+    }
+    .second-section .girl-img .download img:nth-child(3) {
+      margin-left: 10%;
+      max-width: 55%;
+    }
+    .second-section .girl-img .download {
+      width: 58%;
+      left: 6.8rem;
+    }
+    .second-section .girl-img .download .text h2 {
+      font-size: 0.9rem;
+    }
+    .second-section .girl-img .download .text h2 span {
+      font-size: 0.8rem;
+    }
+  /* ----------------- Second Section End ----------------- */
+  /* ---------------- Third Section Start */
+  main .third-section-tv {
+    /* background-color: aquamarine; */
+    gap: 0rem;
+    padding: 0 0rem 0 1rem;
+    height: 33rem;
+    justify-content: space-between;
+  }
+  .third-section-tv .third-tv-text{
+    width: 65%;
+  }
+  main .third-section-tv .third-tv-img img {
+    width: 100%;
+  }
+  main .third-section-tv .third-tv-img video {
+    top: 3rem;
+    left: 6.5rem;
+    width: 60%;
+    max-width: 80%;
+  }
+  /* -------------- Third Section End */
+  /* ----------------- Fourth Section Start -------------- */
+  main .fourth-section {
+    padding: 0 2rem;
+    gap: 1rem;
+    height: 32rem;
+  }
+  main .fourth-section .children-img img {
+    max-width: 100%;
+  }
+  /* ----------------- Fourth Section End -------------- */
+  /* ---------------------- FAQ Section Start ---------- */
+  main .faq-section .faq-questions-container ul {
+    width: 95%;
+  }
+  /* ---------------------- FAQ Section End ---------- */
+  /* --------------------------- Footer Section Start ----------- */
+  footer .footer-container {
+    width: 95%;
+  }
+  footer .menu-container {
+    width: 85%;
+    margin: 0.8rem 0;
+  }
+  footer .menu-container .menu-list ul li {
+    margin-bottom: .9rem;
+  }
+  /* --------------------------- Footer Section End ----------- */
 }
 
 /* ------------------------ 1173px To 1279px ------------------------------- */
